@@ -124,3 +124,20 @@ GitHub: https://github.com/pulatakarthik
 ## ⭐ If you like this project
 
 Please consider giving this repository a ⭐ on GitHub.
+## 📸 Application Screenshots
+
+### 🏠 Home Screen
+
+![Home Screen](assets/home.png)
+
+---
+
+### 📊 High Placement Prediction
+
+![High Prediction](assets/high_prediction.png)
+
+---
+
+### 📉 Low Placement Prediction
+
+![Low Prediction](assets/low_prediction.png)
