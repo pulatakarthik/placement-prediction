@@ -1,25 +1,29 @@
 # 🎓 Placement Prediction System
 
-An AI-powered web application that predicts a student's placement probability using Machine Learning. The application provides an interactive dashboard where users can enter their academic details and instantly receive a placement prediction along with personalized recommendations.
+An end-to-end Machine Learning web application that predicts a student's placement probability based on academic and career-related factors.
+
+## 🚀 Live Demo
+
+🔗 **Try the application:** https://pulatakarthik-placement-prediction-srcapp-10rvsw.streamlit.app/
 
 ---
 
 ## 📌 Features
 
-- 🎯 Predict placement probability
-- 📊 Interactive dashboard using Streamlit
-- 📈 Plotly Gauge Chart visualization
-- 👤 Student profile summary
+- 🎯 Predicts placement probability
+- 📊 Interactive dashboard
+- 📈 Beautiful gauge visualization
 - 💡 AI-based recommendations
-- ⭐ Confidence level prediction
-- 🎨 Professional dark theme UI
+- 👤 Student summary
+- 🌐 Deployed using Streamlit Community Cloud
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 - Streamlit
 - Plotly
@@ -28,53 +32,53 @@ An AI-powered web application that predicts a student's placement probability us
 
 ---
 
+## 📸 Application Screenshots
+
+### 🏠 Home Screen
+
+![Home](assets/home.png)
+
+### 📊 High Placement Prediction
+
+![High Prediction](assets/high_prediction.png)
+
+### 📉 Low Placement Prediction
+
+![Low Prediction](assets/low_prediction.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
 placement-prediction/
 │
+├── assets/
 ├── data/
-│   └── placement_data.csv
-│
 ├── models/
-│   └── placement_model.pkl
-│
 ├── src/
-│   ├── app.py
-│   ├── train_model.py
-│   ├── generate_dataset.py
-│   └── predict.py
-│
-├── notebooks/
-│
-├── requirements.txt
 ├── README.md
+├── requirements.txt
 └── .gitignore
 ```
 
 ---
 
-## 🚀 Installation
+## ⚙️ Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/pulatakarthik/placement-prediction.git
 ```
 
-Go to the project folder
-
-```bash
-cd placement-prediction
-```
-
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the application:
 
 ```bash
 streamlit run src/app.py
@@ -82,62 +86,31 @@ streamlit run src/app.py
 
 ---
 
-## 📊 Machine Learning Features
+## 🤖 Machine Learning Model
 
-The model uses the following inputs:
-
-- CGPA
-- Aptitude Score
-- Internship Experience
-- Projects Completed
-- Active Backlogs
-
----
-
-## 📷 Application Preview
-
-*(Screenshots will be added here after deployment.)*
+- Model: Random Forest Classifier
+- Features Used:
+  - CGPA
+  - Aptitude Score
+  - Internship Experience
+  - Projects Completed
+  - Active Backlogs
 
 ---
 
-## 🔮 Future Improvements
+## 📈 Future Improvements
 
-- Login System
-- Database Integration
-- Resume Analysis
-- Company-wise Prediction
-- Placement Analytics Dashboard
-- Cloud Deployment
+- Real-world dataset
+- Resume analysis
+- Company-wise prediction
+- Student login system
+- Performance analytics
 
 ---
 
 ## 👨‍💻 Author
 
-**Pulata Karthik**
+**Karthik Pulata**
 
-Computer Science Engineering Student
-
-GitHub: https://github.com/pulatakarthik
-
----
-
-## ⭐ If you like this project
-
-Please consider giving this repository a ⭐ on GitHub.
-## 📸 Application Screenshots
-
-### 🏠 Home Screen
-
-![Home Screen](assets/home.png)
-
----
-
-### 📊 High Placement Prediction
-
-![High Prediction](assets/high_prediction.png)
-
----
-
-### 📉 Low Placement Prediction
-
-![Low Prediction](assets/low_prediction.png)
+GitHub:
+https://github.com/pulatakarthik
